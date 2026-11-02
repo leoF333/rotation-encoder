@@ -1,0 +1,12 @@
+{
+ "template": "arc",
+ "seed": 0,
+ "configs": [
+  "lin-shallow",
+  "lin-deep",
+  "mlp-deep",
+  "deep-deep",
+  "lin-deep-k2",
+  "mlp-deep-P500"
+ ]
+}

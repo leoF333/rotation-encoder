@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aerot"
+version = "1.0.0"
+description = "Statistical physics of a linear encoder of rotation videos: replica theory, out-of-distribution error in a gap, autoencoders"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Leo Flack" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scipy>=1.11"]
+
+[project.optional-dependencies]
+full = ["torch>=2.1", "matplotlib>=3.8", "pandas>=2.0", "sympy>=1.12", "tqdm", "pillow"]
+test = ["pytest>=7", "torch>=2.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

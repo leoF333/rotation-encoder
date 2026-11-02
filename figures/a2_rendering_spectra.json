@@ -1,0 +1,23 @@
+{
+ "variants": [
+  [
+   "interp",
+   1
+  ],
+  [
+   "analytic",
+   1
+  ],
+  [
+   "analytic",
+   4
+  ],
+  [
+   "analytic",
+   8
+  ]
+ ],
+ "dist": "uniform",
+ "wmax": 1.2566370614359172,
+ "n": 2000
+}

@@ -1,0 +1,12 @@
+{
+ "d": 28,
+ "T": 10,
+ "method": "analytic",
+ "ss": 4,
+ "n": 4000,
+ "dist": "uniform",
+ "thresholds": [
+  0.0001,
+  1e-12
+ ]
+}

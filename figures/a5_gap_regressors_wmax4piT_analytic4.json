@@ -1,0 +1,21 @@
+{
+ "wmax": 1.2566370614359172,
+ "keys": [
+  "trunc1e-04",
+  "trunc1e-08",
+  "trunc1e-12",
+  "ridge1e-03",
+  "ridge1e-06",
+  "ridge1e-09",
+  "P2000_trunc1e-04"
+ ],
+ "labels": [
+  "pinv 1e-4",
+  "pinv 1e-8",
+  "pinv 1e-12",
+  "ridge 1e-3 \u03bb\u2081",
+  "ridge 1e-6 \u03bb\u2081",
+  "ridge 1e-9 \u03bb\u2081",
+  "P=2000, pinv 1e-4"
+ ]
+}

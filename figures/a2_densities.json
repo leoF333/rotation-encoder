@@ -1,0 +1,7 @@
+{
+ "dist": "creneau",
+ "threshold": 0.0001,
+ "bins": 30,
+ "method": "analytic",
+ "ss": 4
+}

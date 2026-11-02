@@ -1,0 +1,8 @@
+{
+ "template": "cross",
+ "pareto": [
+  "lin-shallow",
+  "deep-deep",
+  "lin-deep-k2"
+ ]
+}

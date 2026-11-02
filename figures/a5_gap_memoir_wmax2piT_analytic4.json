@@ -1,0 +1,10 @@
+{
+ "wmax": 0.6283185307179586,
+ "n": 4000,
+ "method": "analytic",
+ "ss": 4,
+ "threshold": 0.0001,
+ "dist": "creneau",
+ "d": 28,
+ "T": 10
+}

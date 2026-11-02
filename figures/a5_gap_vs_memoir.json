@@ -1,0 +1,26 @@
+{
+ "variants": [
+  [
+   "analytic4",
+   4,
+   "thirds",
+   "rad",
+   "pinv1e-04"
+  ],
+  [
+   "analytic4",
+   2,
+   "thirds",
+   "rad",
+   "pinv1e-08"
+  ],
+  [
+   "interp1",
+   2,
+   "thirds",
+   "rad",
+   "pinv1e-08"
+  ]
+ ],
+ "note": "abscisse normalis\u00e9e \u03c9/\u03c9_max ; m\u00e9moire : \u03c9_max = 4\u03c0/T d'apr\u00e8s ses axes"
+}

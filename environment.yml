@@ -1,0 +1,17 @@
+name: aerot
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - matplotlib
+  - sympy
+  - pandas
+  - tqdm
+  - pillow
+  - pytorch
+  - pytest
+  - pip
+  - pip:
+      - -e .

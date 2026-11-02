@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Encoding a rotation: replica theory and out-of-distribution error of a linear encoder on rotation videos"
+authors:
+  - family-names: Flack
+    given-names: Leo
+year: 2026
+url: "https://github.com/leoF333/rotation-encoder"
+license: MIT

@@ -1,0 +1,8 @@
+{
+ "template": "gaussian",
+ "pareto": [
+  "mlp-deep",
+  "deep-deep",
+  "lin-deep-k2"
+ ]
+}

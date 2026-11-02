@@ -1,0 +1,5 @@
+{
+ "reg": "ridge1e-06",
+ "dist": "uniform",
+ "stat": "median"
+}

@@ -1,0 +1,13 @@
+{
+ "dist": "uniform",
+ "wmax": 1.2566370614359172,
+ "ridge_r": [
+  "ridge1e-02",
+  "ridge1e-04",
+  "ridge1e-06",
+  "ridge1e-08"
+ ],
+ "eig_tol": 1e-14,
+ "theory_version": "0.2",
+ "note": "points pleins = donn\u00e9es de rotation, creux = substituts gaussiens de m\u00eames moments ; traits = r\u00e9pliques"
+}

@@ -1,0 +1,9 @@
+{
+ "omega": 0.194,
+ "archs": [
+  "sym3",
+  "sym5"
+ ],
+ "seed": 0,
+ "epochs": 300
+}

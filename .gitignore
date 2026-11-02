@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# regenerable data (see data/spectra/README.md and scripts/README.md)
+data/spectra/*.npz
+results/b1_theory_cache/*
+!results/b1_theory_cache/.gitkeep
+results/**/*.pt
+*.ckpt
+logs/

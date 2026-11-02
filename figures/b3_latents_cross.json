@@ -1,0 +1,11 @@
+{
+ "template": "cross",
+ "seed": 0,
+ "configs": [
+  "lin-shallow",
+  "lin-deep",
+  "mlp-deep",
+  "deep-deep",
+  "lin-deep-k2"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "template": "cross",
+ "omega_img": 0.3,
+ "t_img": 3,
+ "pixel": [
+  3,
+  7,
+  18
+ ],
+ "methods": [
+  [
+   "analytic",
+   1,
+   "analytique ss=1"
+  ],
+  [
+   "analytic",
+   4,
+   "analytique ss=4"
+  ],
+  [
+   "interp",
+   1,
+   "interp (bilin\u00e9aire)"
+  ]
+ ],
+ "d": 28,
+ "T": 10
+}

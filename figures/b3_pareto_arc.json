@@ -1,0 +1,10 @@
+{
+ "template": "arc",
+ "pareto": [
+  "lin-mid",
+  "mlp-mid",
+  "mlp-deep",
+  "mlp-deep-k2",
+  "mlp-deep-P1000"
+ ]
+}

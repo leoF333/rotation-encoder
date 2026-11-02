@@ -1,0 +1,9 @@
+{
+ "template": "arc",
+ "seed": 0,
+ "archs": [
+  "sym3",
+  "sym5",
+  "asym"
+ ]
+}
