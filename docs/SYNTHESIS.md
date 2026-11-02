@@ -308,7 +308,7 @@ séparément**, qui ne reprend que les choix de paramètres.
   - les valeurs précises de l'erreur dans le gap pour les templates à bords francs dépendent du rendu (facteur 2 à 12) ;
   - le critère de validité de l'approximation gaussienne n'est qu'indicatif.
 
-Détails : `docs/REPORT_verification.md`.
+Détails : code dans `verification/`.
 
 ---
 
@@ -341,4 +341,4 @@ Tout est versionné dans un dépôt git local.
 | Rapport analytique complet | `docs/REPORT_theory.md` |
 | Dérivations détaillées | `theory/derivations/01…05_*.md` |
 | Formules exécutables | `src/aerot/theory.py` |
-| Vérification indépendante | `docs/REPORT_verification.md` |
+| Vérification indépendante | `verification/` |

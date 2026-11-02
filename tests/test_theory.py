@@ -63,7 +63,7 @@ def test_train_gen_ratio_identity(spectrum):
     assert op["Etrain"] == pytest.approx((1 - op["df"] / P) ** 2 * op["Egen"], rel=1e-9)
 
 
-def test_ridgeless_limit_recovers_memoir_formulas(spectrum):
+def test_ridgeless_limit_classical_least_squares(spectrum):
     """P > N, lambda_r -> 0 : E_train = s2 (1 - N/P), E_gen = s2 / (1 - N/P)."""
     lam, _, s2, c, omega2 = spectrum
     N = lam.size
@@ -121,7 +121,7 @@ def test_runge_identity_on_a_1d_manifold():
     assert th.ood_error_truncated(lam, U.T @ Ctr, U.T @ Ste @ U, U.T @ Cte, o2te, tau=1e-14) == pytest.approx(r["Eood"], rel=1e-8)
 
 
-def test_memoir_erratum_E2():
+def test_ridgeless_saddle_point_sign():
     """The corrected m* makes the free-energy combination equal to sigma2_res; the memoir's sign does not."""
     Jcc, Jpc, Jpp, wbar, s2 = 0.3, 0.2, 0.5, 0.7, 0.1
     corrected = th.memoire_ridgeless(Jcc, Jpc, Jpp, wbar, s2, alpha=3.0, corrected=True)

@@ -42,5 +42,3 @@ Tous les scripts sont idempotents : les résultats déjà calculés dans `result
 | références MSE de B3 (`results/b3_baselines.md` : vidéo moyenne, PCA de rang k) | `$PY scripts/b3_baselines.py` | < 1 min |
 | sonde « décodeur partagé » g(z·t) (sortie console, cf. rapport §5) | `$PY scripts/b3_shared_probe.py` | ~1.5 min (GPU) |
 
-Les courbes du mémoire numérisées (`results/memoire_digit/memoire_Eomega_fig6_7.json`) proviennent des images JPEG
-embarquées dans `docs/memoire_PRL_2025-2026.pdf` : `$PY scripts/a5_digitize_memoir.py` (< 10 s).
